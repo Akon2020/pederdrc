@@ -145,10 +145,6 @@ export default function HomePage() {
         <div className="relative flex min-h-[600px] items-center lg:min-h-[700px]">
           <div className="mx-auto max-w-7xl px-4 py-20 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm text-white backdrop-blur-sm">
-                <Heart className="h-4 w-4" />
-                <span>Depuis 1989 - Bukavu, RDC</span>
-              </div>
               <h1 className="text-balance text-3xl font-bold leading-tight tracking-tight text-white md:text-5xl lg:text-6xl">
                 {t("home.hero.title")}
               </h1>
